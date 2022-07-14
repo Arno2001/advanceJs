@@ -31,7 +31,7 @@ char* strcat(char* s1, char* s2)
   for (int i = 0, j=0; i < count; i++)
   {
     if(i >= count1)
-    {
+    { 
       *(s1+i) = *(s2+j);
       j++;
     }
